@@ -7,7 +7,7 @@ const incomeChartLabels = [
 
 const incomeChartData = [
     {
-        label: 'Average Tax Rate (%)',
+        label: 'Germany',
         data: [
             0.00,
             0.00,
@@ -33,6 +33,46 @@ const incomeChartData = [
         ],
         borderColor: 'rgb(75, 192, 192)',
         backgroundColor: 'rgba(75, 192, 192, 0.1)',
+        tension: 0.1
+    },
+    {
+        label: 'Bulgaria (10%)',
+        data: incomeChartLabels.map(() => 10),
+        borderColor: 'rgb(255, 99, 132)',
+        backgroundColor: 'rgba(255, 99, 132, 0.1)',
+        borderDash: [5, 5],
+        tension: 0.1
+    },
+    {
+        label: 'Romania (10%)',
+        data: incomeChartLabels.map(() => 10),
+        borderColor: 'rgb(54, 162, 235)',
+        backgroundColor: 'rgba(54, 162, 235, 0.1)',
+        borderDash: [5, 5],
+        tension: 0.1
+    },
+    {
+        label: 'Hungary (15%)',
+        data: incomeChartLabels.map(() => 15),
+        borderColor: 'rgb(255, 206, 86)',
+        backgroundColor: 'rgba(255, 206, 86, 0.1)',
+        borderDash: [5, 5],
+        tension: 0.1
+    },
+    {
+        label: 'Lithuania (20%)',
+        data: incomeChartLabels.map(() => 20),
+        borderColor: 'rgb(201, 203, 207)',
+        backgroundColor: 'rgba(201, 203, 207, 0.1)',
+        borderDash: [5, 5],
+        tension: 0.1
+    },
+    {
+        label: 'Estonia (24%)',
+        data: incomeChartLabels.map(() => 24),
+        borderColor: 'rgb(255, 159, 64)',
+        backgroundColor: 'rgba(255, 159, 64, 0.1)',
+        borderDash: [5, 5],
         tension: 0.1
     }
 ];
